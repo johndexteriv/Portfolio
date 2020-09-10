@@ -1,3 +1,12 @@
 body {
     background: cadetblue;
 }
+
+.card-footer {
+    text-align: center;
+}
+
+.sociallink {
+    color: white;
+
+}
