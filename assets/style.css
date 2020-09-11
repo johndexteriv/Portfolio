@@ -10,13 +10,3 @@ body {
     color: white;
 }
 
-button {
-    text-align: center;
-}
-
-#sidewalk {
-    /* display: block; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
