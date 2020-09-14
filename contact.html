@@ -14,98 +14,139 @@
 
   <body>
 
+    <!-- // Nav Bar // -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">    
-      <a class="navbar-brand" href="index.html">John Dexter Garner IV</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item  active">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-              </li>
-          </ul>
+        <div class="container">    
+          <a class="navbar-brand" href="index.html">John Dexter Garner IV</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item  active">
+                  <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+          </div>
       </div>
-  </div>
-  </nav>
+    </nav>
+    <!-- //Nav Bar End// -->
 
+    <!-- // Beginning of Main Container-->
     <div class="container">
 
-      <div class="row">
+        <!--// Row that cases the entire card //-->
+        <div class="row">
 
-        <div class="col-md-8">
-          
-          <div class="card bg-light mt-5 mb-5 pt-3">
-            <div class="header mx-3">
-              <h1>Contact</h1>
+            <!--//Column That holds the width of entire card//-->
+            <div class="col-md-12">
+                <!--//Card Beginning//-->
+                <div class="card bg-light mt-5 mb-5 pt-3">
+
+                  <div class="header mx-3">
+                    <h1>Contact</h1>
+                  </div>
+
+                  <!--//Start of row that holds Contact Inputs and Img//-->
+                  <div class="row">
+
+                        <!--//Start of column that holds Contact Inputs-->  
+                        <div class="col-md-7 mr-2">
+
+                          <form>
+
+                            <div class="form-group mx-3">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group mx-3">
+                              <label for="exampleFormControlInput1">Phone Number</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(555)555-5555">
+                            </div>
+                            <div class="form-group mx-3">
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <div class="row mx-3">
+                              
+                              <div class="form-group">
+                                  <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                                  <label class="form-check-label" for="disabledFieldsetCheck">
+                                    Please Contact by Email
+                                  </label>
+                                  </div>
+                              </div>    
+                              <div class="form-group mx-3">
+                                  <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                                  <label class="form-check-label" for="disabledFieldsetCheck">
+                                    Please Contact by Phone
+                                  </label>
+                                  </div>
+                              </div>
+
+                            </div>
+                            
+                              
+                          </form>
+
+                        </div>
+                        <!--//End of column holding Contact Inputs-->
+
+                        <!--//Start of Img//-->
+                        <div class="col-md-4">
+                          <img class="img-fluid mx-2" src="assets/PortfolioImg2.JPG" alt="Photo of Portfolio Owner">
+                        </div>
+                        <!--//End of Img//-->
+
+                  </div>
+                  <!--//End of row holding Contact Inputs and Img//-->
+
+                    <!--//Start of Submit Button//-->
+                    <div class="row">
+                        <div class="col-md-12 mt-2 text-center">
+                          <button type="submit" class="btn btn-info">Submit</button>
+                        </div>
+                    </div>
+                    <!--//End of Submit Button//--> 
+                    
+                    <!--//Start of Footer//-->
+                    <div class="row">
+                      <div class="col-md-12">
+                          <div class="card-footer bg-secondary mt-3">
+                            <a href="https://github.com/johndexteriv"><i class="sociallink mx-3">GitHub</i></a>
+                            <a href="https://www.linkedin.com/in/dexter-garner-042a26115/"><i class="sociallink mx-3">LinkedIn</i></a>
+                            <a href="https://www.instagram.com/johndexteriv/"><i class="sociallink mx-3">Instagram</i></a>
+                          </div> 
+                      </div>    
+                    </div>
+                    <!--///End of Footer//-->
+
+                </div>
+                <!--//End of card//-->
+
             </div>
-
-            <form>
-              <div class="form-group mx-3">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="form-group mx-3">
-                <label for="exampleFormControlInput1">Phone Number</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(555)555-5555">
-              </div>
-              <div class="form-group mx-3">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-
-              <div class="row mx-3">
-                <div class="form-group">
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
-                    <label class="form-check-label" for="disabledFieldsetCheck">
-                      Please Contact by Email
-                    </label>
-                    </div>
-                </div>    
-                <div class="form-group mx-3">
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
-                    <label class="form-check-label" for="disabledFieldsetCheck">
-                      Please Contact by Phone
-                    </label>
-                    </div>
-                </div>
-                </div>
-              
-                <div class="col-md-12 mt-2 text-center">
-                <button type="submit" class="btn btn-info ml-3">Submit</button>
-                </div>
-            </form>
-            <div class="card-footer bg-secondary mt-3">
-              <a href="https://github.com/johndexteriv"><i class="sociallink mx-3">GitHub</i></a>
-              <a href="https://www.linkedin.com/in/dexter-garner-042a26115/"><i class="sociallink mx-3">LinkedIn</i></a>
-              <a href="https://www.instagram.com/johndexteriv/"><i class="sociallink mx-3">Instagram</i></a>
-            </div> 
-          </div>
+            <!--//End of column that holds width of entire card//-->
 
         </div>
-
-        <div class="col-md-4 mt-5">
-          <img class="img-fluid mt-4" src="assets/PortfolioImg2.JPG" alt="Photo of Portfolio Owner">
-        </div>
-
-      </div>
+        <!--// End of Row that holds card //-->
 
     </div>
+    <!--// End of Main Container //-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 
 </html>
