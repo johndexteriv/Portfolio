@@ -1,19 +1,24 @@
+/* Made the background color for every page complimentary */
 body {
     background: cadetblue;
 }
 
+/* Centered all text on card footers */
 .card-footer {
     text-align: center;
 }
 
+/* Made the link color on all card footers white */
 .sociallink {
     color: white;
 }
 
+/* Centered all text on card body */
 .card-body {
     text-align: center;
 }
 
+/* Centered and formatted all place holder images */
 .card-img-top {
     display: block;
     margin-left: auto;
