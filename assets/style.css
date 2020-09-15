@@ -6,6 +6,11 @@ body {
 /* Centered all text on card footers */
 .card-footer {
     text-align: center;
+    /* text-decoration: none; */
+}
+
+.card-footer a {
+    text-decoration: none;
 }
 
 /* Made the link color on all card footers white */
@@ -51,14 +56,3 @@ body {
     }
 }
 
-@media only screen and (max-width: 1030px) {
-    #check {
-        clear: both;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        width: 50%;
-        height: 50%;
-    }
-}
