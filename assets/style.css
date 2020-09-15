@@ -9,6 +9,7 @@ body {
     /* text-decoration: none; */
 }
 
+/* Removes decoration to footer links */
 .card-footer a {
     text-decoration: none;
 }
@@ -32,6 +33,8 @@ body {
     width: 50%;
 }
 
+
+/* media query to adjust #Portfolioimg for screens < 595px */
 @media only screen and (max-width: 595px) {
     #PortfolioImg {
         clear: both;
@@ -44,6 +47,7 @@ body {
     }
 }
 
+/* media query to adjust #PortfolioImg2 for screens < 790px */
 @media only screen and (max-width: 790px) {
     #PortfolioImg2 {
         clear: both;
