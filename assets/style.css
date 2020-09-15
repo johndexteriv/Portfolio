@@ -26,3 +26,39 @@ body {
     margin-top: 5%;
     width: 50%;
 }
+
+@media only screen and (max-width: 595px) {
+    #PortfolioImg {
+        clear: both;
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    #PortfolioImg2 {
+        clear: both;
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    #check {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 50%;
+        height: 50%;
+    }
+}
